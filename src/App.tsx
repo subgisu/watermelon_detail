@@ -437,7 +437,7 @@ export default function App() {
               <img 
                 src="/watermelon_detail/Watermelonslice1.png" 
                 alt="수박 조각" 
-                className="w-full max-w-[500px] md:max-w-[600px] lg:max-w-[800px] object-contain drop-shadow-2xl"
+                className="w-full max-w-[500px] md:max-w-[600px] lg:max-w-[800px] object-contain drop-shadow-2xl rounded-3xl"
                 referrerPolicy="no-referrer"
               />
             </FadeIn>
