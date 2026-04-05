@@ -106,7 +106,7 @@ export default function App() {
             </FadeIn>
           </div>
 
-          {/* Farmer Image */}
+        {/* Farmer Image */}
           <div className="relative z-30 mt-16 px-4 sm:px-8">
             <FadeIn delay={0.4}>
               <div className="relative w-full h-[300px] sm:h-[400px] rounded-3xl overflow-hidden shadow-xl">
@@ -116,18 +116,19 @@ export default function App() {
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
-                <div className="mb-0">
-                    <p className="text-white text-2xl sm:text-3xl font-bold mb-3">
-                      "정직한 땀방울로 키워냅니다"
-                    </p>
-                    <p className="text-white/80 text-base sm:text-lg">
-                      채움농장 대표 농부
-                    </p>
-                  </div>
-              </FadeIn>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 sm:p-8 text-left">
+                  <p className="text-white text-2xl sm:text-3xl font-bold mb-3">
+                    "정직한 땀방울로 키워냅니다"
+                  </p>
+                  <p className="text-white/80 text-base sm:text-lg">
+                    채움농장 대표 농부
+                  </p>
+                </div>
+              </div>
+            </FadeIn>
           </div>
         </section>
-
+        
         {/* ==========================================
             PAGE 2: Features Section
         ========================================== */}
