@@ -124,9 +124,7 @@ export default function App() {
                       채움농장 대표 농부
                     </p>
                   </div>
-                </div>
-              </div>
-            </FadeIn>
+              </FadeIn>
           </div>
         </section>
 
