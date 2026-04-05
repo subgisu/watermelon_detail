@@ -116,20 +116,12 @@ export default function App() {
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 sm:p-8 text-left">
-                  <div className="mb-6">
-                    <p className="text-white text-xl sm:text-2xl font-bold mb-1">
+                <div className="mb-0">
+                    <p className="text-white text-2xl sm:text-3xl font-bold mb-3">
                       "정직한 땀방울로 키워냅니다"
                     </p>
-                    <p className="text-white/80 text-sm sm:text-base">
+                    <p className="text-white/80 text-base sm:text-lg">
                       채움농장 대표 농부
-                    </p>
-                  </div>
-                  
-                  {/* Additional Text Box */}
-                  <div className="bg-white/90 backdrop-blur-md p-5 rounded-xl max-w-lg border border-white/20 shadow-lg">
-                    <p className="text-zinc-800 text-sm sm:text-base leading-relaxed break-keep font-medium">
-                      "좋은 수박은 건강한 땅에서 시작됩니다. 채움농장은 수박의 단맛을 극대화하기 위해 직접 배합한 유기질 비료만을 고집합니다."
                     </p>
                   </div>
                 </div>
